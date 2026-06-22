@@ -1,0 +1,29 @@
+{
+  "name": "M5 Chess Engine",
+  "description": "Text-first legal chess search firmware for M5Stack. It does not draw a board; it accepts FEN and UCI-style moves over USB serial and shows the best move on the device screen.",
+  "keywords": "ESP32, M5Stack, chess, engine, Arduino",
+  "author": "Codex",
+  "repository": "",
+  "firmware_category": [
+    {
+      "Core": {
+        "path": "firmware/m5stack-core-esp32",
+        "device": [
+          "M5Stack Core"
+        ],
+        "default_baud": 921600
+      }
+    },
+    {
+      "Core2": {
+        "path": "firmware/m5stack-core2",
+        "device": [
+          "M5Stack Core2"
+        ],
+        "default_baud": 921600
+      }
+    }
+  ],
+  "version": "0.1.0",
+  "framework": "Arduino"
+}
